@@ -10,7 +10,7 @@ export default function App() {
       <div className="app">
         <div className="board">
           <Routes>
-            <Route path="/" element={<StartingPage />}></Route>
+            <Route path="/quizzle_test" element={<StartingPage />}></Route>
             <Route path="/game" element={<Game/>}/>
           </Routes>
         </div>
